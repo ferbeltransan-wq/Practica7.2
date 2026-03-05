@@ -26,9 +26,7 @@ jobs:
       - name: Clonar repositorio
         uses: actions/checkout@v4
 
-TODO 1 	¿Qué evento activa el CD? 	Se activa al fusionar
-TODO 2 	¿Qué permiso necesita? 	Necesario para crear la rama gh-pages.
-TODO 3 	¿Qué directorio publicar? 	Los archivos están en la raíz. ¿Cómo se referencia el directorio actual en Linux?      - name: Desplegar en GitHub Pages
+      - name: Desplegar en GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
